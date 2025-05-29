@@ -1,4 +1,5 @@
 var pi = Math.PI;
+Console.ForegroundColor = ConsoleColor.Red;
 
 Console.WriteLine("--------- Osobní dotazník ---------\nAhoj, jak se jmenujete?");
 var name = Console.ReadLine();
