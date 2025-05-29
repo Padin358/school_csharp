@@ -1,4 +1,3 @@
-var pi = Math.PI;
 Console.ForegroundColor = ConsoleColor.Red;
 
 Console.WriteLine("--------- Osobní dotazník ---------\nAhoj, jak se jmenujete?");
@@ -14,7 +13,7 @@ Console.WriteLine("\nProgram nyní čeká na stisknutí klávesy ENTER a násled
 Console.ReadLine();
 Console.ForegroundColor = ConsoleColor.Green;
 // Sinus
-var sinus = Math.Sin(Int32.Parse(age)) * pi / 180;
+var sinus = Math.Sin(Int32.Parse(age)) * Math.PI / 180;
 Console.WriteLine($"Sinus z vašeho věku je: {sinus}");
 // Počet písmen ve jméně
 Console.WriteLine($"Délka vašeho jména je: {name.Length}");
