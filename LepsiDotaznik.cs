@@ -20,4 +20,4 @@ Console.WriteLine($"Délka vašeho jména je: {name.Length}");
 Console.WriteLine("\nProgram nyní čeká na stisknutí klávesy ENTER a následně bude pokračovat. (program čeká)");
 Console.ReadLine();
 
-Console.WriteLine($"Výpis ze zadaných informací:\nVaše jméno: {name}\nVáš věk je: {age}\nChodíte do školy: {sc
+Console.WriteLine($"Výpis ze zadaných informací:\nVaše jméno: {name}\nVáš věk je: {age}\nChodíte do školy: {school}\nVaše záliby jsou: {hobby}\n\nDěkujeme za vyplnění dotazníku!");
